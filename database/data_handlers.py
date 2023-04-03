@@ -39,7 +39,7 @@ class Ditemtypes(Base):
 
 
 # example = create_engine('mysql://username:password@localhost/mydatabase')
-# engine = create_engine('mysql://p521889_alex568:dI5yO7oG1m@185.105.110.5/p521889_alex568')
+# engine = create_engine('')
 
 # connect to local database file
 engine = create_engine(Config.FTP_HOST)
